@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-09-25 13:23:48" Modified_Date="2021-09-25 13:27:44" Creator="noobius" Comments="" ID="0a614e2e04a6b9d0b8e42d6352e1870a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-09-25 13:23:48" Modified_Date="2021-09-25 13:41:32" Creator="noobius" Comments="" ID="fb44bc96c90a0dc679acaeda8e8f56cc">
   <Library_General_Settings>
     <Package_File_Name>antonio_alexander_lib_lv_pagination</Package_File_Name>
     <Library_Version>1.0.0.2</Library_Version>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>Antonio Alexander</Packager>
       <URL>https://github.com/antonio-alexander/lv-pagination</URL>
-      <Release_Notes/>
+      <Release_Notes>* Updated distribution for examples so that it wouldn't attempt to place VI contents since pane usage made it break.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -111,14 +111,11 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
     </Source_Files>
-    <License_Agreement_Filepath>..\..\..\..\..\..\F\github.com\antonio-alexander\lv-pagination\LICENSE</License_Agreement_Filepath>
+    <License_Agreement_Filepath>..\..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -314,7 +311,7 @@
         <Path>..\working\lv-pagination\public\_globals</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>597AC774E5D6773DF297A1AE118D2208</GUID>
+      <GUID>AD2EDCA08BBAF0D0A7E719F66DFF2163</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -340,7 +337,7 @@
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>example_01_table_scrollbars.vi</NameSub_Menu_Name>
         <Short_Name/>
-        <is_Merge_VI>true</is_Merge_VI>
+        <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
           <Column>1</Column>
@@ -354,7 +351,7 @@
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>example_02_pagination_controls.vi</NameSub_Menu_Name>
         <Short_Name/>
-        <is_Merge_VI>true</is_Merge_VI>
+        <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
           <Column>2</Column>
@@ -363,7 +360,7 @@
         <Path>..\working\lv-pagination\examples\example_02_pagination_controls.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A27268DFD54849659055E615656970A1</GUID>
+      <GUID>FA278ADFDE1AFCB69D8A9F954F87BCE4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -412,7 +409,7 @@
         <Path>..\working\lv-pagination\public\_globals\fg_width_padding.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7B1F407EA7C0690AF1328B5908624BB9</GUID>
+      <GUID>A035880D6AFD83C1C6C83BA66C30CBCC</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -431,7 +428,7 @@
       <Description/>
       <Synchronization_Info>
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
-        <Synchronize_Directory_Path>..\..\..\..\..\..\..</Synchronize_Directory_Path>
+        <Synchronize_Directory_Path>..</Synchronize_Directory_Path>
       </Synchronization_Info>
       <Items_Data>
         <Type>Item</Type>
@@ -447,7 +444,7 @@
         <Path>..\working\lv-pagination\public\_controls\configuratin_resize.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>63BA35E9411C2CF0C972C43E2923AFF4</GUID>
+      <GUID>F88027DAA32CDC84A424649C6FDA598B</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
