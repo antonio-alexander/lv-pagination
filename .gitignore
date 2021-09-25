@@ -15,3 +15,9 @@
 *.aliases
 *.lvlps
 .cache/
+
+# Deplyoment, distribution and build files
+builds
+distribution/vipm/*.vip
+distribution/working/*
+source/data/bin/*.*
